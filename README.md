@@ -1,5 +1,3 @@
-# -
-蘑菇蘑菇游戏的隐私政策协议
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
