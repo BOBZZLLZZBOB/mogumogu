@@ -6,70 +6,149 @@
     <title>《蘑菇蘑菇》隐私政策</title>
     <style>
         body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            line-height: 1.6; 
-            max-width: 800px; 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Microsoft YaHei", sans-serif; 
+            line-height: 1.7; 
+            max-width: 900px; 
             margin: 0 auto; 
-            padding: 20px; 
+            padding: 25px; 
             color: #333; 
+            background-color: #f8f9fa;
+        }
+        .container {
+            background: white;
+            border-radius: 12px;
+            padding: 40px;
+            box-shadow: 0 2px 15px rgba(0,0,0,0.05);
         }
         h1 { 
             text-align: center; 
-            border-bottom: 1px solid #eee; 
-            padding-bottom: 10px; 
+            color: #2c5530;
+            margin-bottom: 10px;
+            font-size: 2.2em;
+        }
+        .subtitle {
+            text-align: center;
+            color: #666;
+            margin-bottom: 40px;
+            font-size: 1.1em;
         }
         .update-date { 
             text-align: right; 
-            color: #666; 
-            font-style: italic; 
+            color: #888; 
+            font-size: 0.95em;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+        h2 {
+            color: #2c5530;
+            border-left: 4px solid #4CAF50;
+            padding-left: 12px;
+            margin-top: 35px;
+        }
+        h3 {
+            color: #555;
+            margin-top: 25px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .contact-box {
+            background: #f0f7f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 25px 0;
+        }
+        .emphasis {
+            background: #fff8e1;
+            padding: 15px;
+            border-radius: 6px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .container {
+                padding: 25px 20px;
+            }
         }
     </style>
 </head>
 <body>
-    <h1>《蘑菇蘑菇》隐私政策</h1>
-    <p class="update-date">更新时间：2024年X月X日</p>
+    <div class="container">
+        <h1>《蘑菇蘑菇》隐私政策</h1>
+        <div class="subtitle">Mushroom Mushroom Privacy Policy</div>
+        
+        <p class="update-date">生效日期：2024年11月<br>最后更新：2024年11月</p>
 
-    <p>欢迎您体验《你的游戏名称》！作为一位个人开发者，我深知个人信息安全的重要性。本政策将说明本游戏如何收集、使用您的信息，以及您如何管理自己的隐私权利。</p>
+        <div class="emphasis">
+            <strong>温馨提示：</strong>作为个人独立开发者，我深知隐私保护的重要性。本政策将用尽可能清晰的语言，说明《蘑菇蘑菇》如何收集、使用和保护您的信息。
+        </div>
 
-    <h2>1. 信息收集</h2>
-    <p>为了提供基本的游戏功能和服务，本游戏可能会收集以下必要信息：</p>
-    <ul>
-        <li><strong>设备信息</strong>：为保障游戏兼容性和稳定性，我们会收集设备型号、操作系统版本、唯一设备标识符（如Android ID）。</li>
-        <li><strong>游戏数据</strong>：您的游戏进度、成就、虚拟货币等数据会存储在设备本地，部分情况下可能会上传至服务器用于数据备份和同步。</li>
-        <li><strong>日志信息</strong>：当游戏出现异常时，我们会收集相关的故障日志，用于分析和修复问题。</li>
-    </ul>
+        <p>欢迎您选择《蘑菇蘑菇》！请您仔细阅读并充分理解本隐私政策的全部内容。<strong>您开始使用或继续使用本游戏，即表示您同意我们按照本政策处理您的相关信息。</strong></p>
 
-    <h2>2. 第三方服务</h2>
-    <p>本游戏集成了以下第三方服务，它们可能会根据其自身的隐私政策收集信息：</p>
-    <ul>
-        <li><strong>TapTap SDK</strong>：用于游戏分发、登录和社区服务。</li>
-        <!-- 如果你用了其他SDK，在这里如实添加，例如：
-        <li><strong>Unity Analytics</strong>：用于匿名分析游戏表现和玩家行为，以帮助我改进游戏。</li>
-        -->
-    </ul>
+        <h2>一、我们如何收集和使用信息</h2>
+        <p>为保证游戏的正常运行，我们会在以下场景中收集相关信息：</p>
 
-    <h2>3. 信息使用</h2>
-    <p>收集的信息仅用于：</p>
-    <ul>
-        <li>提供、维护和改进游戏体验。</li>
-        <li>排查游戏崩溃和错误。</li>
-        <li>生成匿名的统计数据，以了解整体游戏情况。</li>
-    </ul>
+        <h3>1.1 游戏运行所需信息</h3>
+        <ul>
+            <li><strong>设备标识符</strong>（如Android ID）：用于验证 licenses、检测盗版、保障账号安全。</li>
+            <li><strong>设备信息</strong>：设备型号、操作系统版本、系统语言、屏幕分辨率，用于优化游戏兼容性和画面表现。</li>
+            <li><strong>游戏数据</strong>：您的游戏存档、关卡进度、道具收集情况、游戏内设置，这些数据主要存储在您的设备本地。</li>
+        </ul>
 
-    <h2>4. 您的权利</h2>
-    <p>您有权：</p>
-    <ul>
-        <li>在设备操作系统的权限管理中，撤销您已授予本游戏的权限（如存储权限）。</li>
-        <li>通过设备系统功能，清除本游戏存储在您设备本地的所有数据。</li>
-    </ul>
+        <h3>1.2 第三方服务集成</h3>
+        <p>为提供完整的功能，我们接入了以下第三方服务：</p>
+        <ul>
+            <li><strong>TapTap SDK</strong>：用于游戏分发、账号登录和社区服务，TapTap会依据其隐私政策处理数据。</li>
+            <li><strong>本游戏不包含其他第三方数据收集SDK</strong>，确保您的隐私得到最大程度的保护。</li>
+        </ul>
 
-    <h2>5. 联系我们</h2>
-    <p>如果您对本隐私政策有任何疑问、意见或建议，请通过以下方式与我联系：</p>
-    <ul>
-        <li>电子邮件：your-email@example.com</li>
-        <li>TapTap开发者主页：[你的TapTap主页链接]</li>
-    </ul>
+        <h2>二、我们如何存储和保护信息</h2>
+        <ul>
+            <li><strong>数据存储</strong>：您的游戏进度等数据主要存储在设备本地。建议您定期备份以防丢失。</li>
+            <li><strong>数据安全</strong>：我们采用行业通用的安全技术措施，防止信息遭到未经授权的访问、使用或泄露。</li>
+            <li><strong>数据共享</strong>：我们不会将您的个人信息出售、交易或转让给任何第三方。</li>
+        </ul>
 
-    <p>感谢您的理解与支持！</p>
+        <h2>三、您的权利</h2>
+        <p>您对自己的个人信息享有以下权利：</p>
+        <ul>
+            <li><strong>访问与更正</strong>：您可以在游戏内查看和修改您的游戏数据。</li>
+            <li><strong>删除权</strong>：您可以通过卸载游戏或清除应用数据的方式，删除存储在设备本地的所有信息。</li>
+            <li><strong>撤销权限</strong>：您可以在设备的【设置】-【应用管理】中，撤销已授予本游戏的系统权限。</li>
+        </ul>
+
+        <h2>四、我们如何处理未成年人信息</h2>
+        <p>我们非常重视未成年人的个人信息保护。</p>
+        <ul>
+            <li>我们根据国家有关法律法规及政策要求，接入了国家新闻出版署网络游戏防沉迷实名认证系统。</li>
+            <li>若您是未成年玩家，请在监护人的指导下阅读本政策，并在征得监护人同意后使用我们的服务。</li>
+            <li>我们鼓励监护人指导未成年人使用我们的服务，并建议未成年人鼓励其披露个人信息。</li>
+        </ul>
+
+        <h2>五、政策更新</h2>
+        <p>我们可能会根据业务调整或法律法规的变化适时更新本政策。更新后的政策将在本页面公布，并通过游戏内通知等方式提醒您。请您定期查阅。</p>
+
+        <h2>六、联系我们</h2>
+        <p>如果您对本隐私政策或您的个人信息保护有任何疑问、意见或建议，请通过以下方式与我们联系：</p>
+        
+        <div class="contact-box">
+            <p><strong>开发者：</strong> 张力</p>
+            <p><strong>电子邮箱：</strong> 814979218@qq.com</p>
+            <p><strong>TapTap主页：</strong> <a href="https://developer.taptap.cn/289230/all-app" target="_blank">https://developer.taptap.cn/289230/all-app</a></p>
+        </div>
+
+        <p>我们将尽快在15个工作日内回复您的请求。</p>
+
+        <hr style="margin: 40px 0; border: none; border-top: 1px solid #eee;">
+
+        <p style="text-align: center; color: #888; font-size: 0.9em;">感谢您对《蘑菇蘑菇》的支持与理解！</p>
+    </div>
 </body>
 </html>
